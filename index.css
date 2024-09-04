@@ -1,0 +1,38 @@
+/* External CSS file for grid layout */
+h1 {text-align: center;
+    color: aqua;
+}
+
+h2{text-align: center;
+color:rgb(81, 67, 208)}
+
+h3{text-align: center;
+    color:rgb(239, 186, 186)}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    margin: 10;
+    padding: 100;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates two equal-width columns */
+    gap: 20px; /* Space between grid items */
+    padding: 50px;
+}
+
+.box {
+    background-color: #12dba2; /* Green background */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box1 {background-color: #b3db12; /* Green background */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 640px;
+}
